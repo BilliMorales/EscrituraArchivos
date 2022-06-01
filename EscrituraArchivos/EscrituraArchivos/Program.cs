@@ -14,22 +14,24 @@ namespace EscrituraArchivos
             StreamWriter sw = new StreamWriter("ejemplo.txt", true);
             //Si el archivo no extiste lo creara
             //Si el archivo exoste escribira en el 
+            string nombre;
+            
+            Console.Write("Ingrese su nombre: ");
+            nombre = Console.ReadLine();
             String[] lines =
             {
-                "Esto es la nueva perimera linea",
-                "Esta es la segunda linea",
-                "Esto es la tercer linea",
+            nombre
             };
             //Recorre el arreglo para escribir las lineas
-            foreach(string line in lines)
+            foreach (string line in lines)
             {
-                //escribe en el archivo
+              //escribe en el archivo
                 sw.WriteLine(line);
             }
-            sw.Close();
-
-            Console.WriteLine("Escribiendo...");
-            Console.ReadLine();
+               sw.Close();
+       
+             Console.WriteLine("Escribiendo...");
+             Console.ReadLine();
         }
     }
 }
