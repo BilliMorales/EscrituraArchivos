@@ -13,3 +13,4 @@ Nombre: Alondra Cancion: Lenguas enrredadasGenero: Rap
 
 Nombre: Saul Cancion: Me vale Genero: Rock
 Nombre: Lidia, Cancion: Por mi mexico, Genero: Rap
+Nombre: Billi , Cancion: squeeze, Genero: trap metal 
